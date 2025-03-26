@@ -230,4 +230,128 @@ header .menu .imgbox:hover {
 }
 #portfolio .box:hover {
   cursor: pointer;
+}
+
+#about {
+  padding: 100px 0;
+}
+#about .box h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#about .box h3 {
+  font-size: 20px;
+  color: #6c757d;
+  margin: 20px 0;
+}
+#about .textbox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 50px 0;
+}
+#about .textbox h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+#about .textbox h3 {
+  font-size: 18px;
+  color: #6c757d;
+  margin: 20px 0 40px;
+  line-height: 1.4;
+}
+#about .textbox .imgbox img {
+  border-radius: 100px;
+  border: 7px solid #e9ecef;
+}
+#about .textbox .circlebox {
+  background-color: #ffc800;
+  border-radius: 100px;
+  border: 7px solid #e9ecef;
+  color: white;
+}
+@media screen and (min-width: 300px) {
+  #about .imgbox img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+  }
+  #about .txt-right {
+    text-align: left;
+    margin-left: 15%;
+    position: relative;
+    right: 2%;
+  }
+  #about .txt-left {
+    text-align: left;
+    margin-left: 15%;
+    position: relative;
+    right: 2%;
+  }
+  #about .circlebox {
+    width: 80px;
+    height: 80px;
+    font-size: 15px;
+    position: relative;
+    right: 35%;
+    text-align: center;
+    padding: 10px 10px;
+  }
+}
+@media screen and (min-width: 770px) {
+  #about .imgbox img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+  }
+  #about .txt-right {
+    text-align: left;
+    margin-left: 20%;
+    position: relative;
+    right: 5%;
+  }
+  #about .txt-left {
+    text-align: left;
+    margin-left: 20%;
+    position: relative;
+    right: 5%;
+  }
+  #about .circlebox {
+    width: 120px;
+    height: 120px;
+    font-size: 20px;
+    position: relative;
+    right: 35%;
+    text-align: center;
+    padding: 15px 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #about .imgbox img {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 45%;
+  }
+  #about .txt-right {
+    text-align: left;
+    margin-left: 40%;
+    position: relative;
+    right: 7%;
+  }
+  #about .txt-left {
+    text-align: right;
+    margin-right: 20%;
+    position: relative;
+    right: 40%;
+  }
+  #about .circlebox {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 45%;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 30px 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
