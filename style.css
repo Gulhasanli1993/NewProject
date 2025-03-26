@@ -16,6 +16,7 @@ header {
 }
 header .menu {
   position: fixed;
+  margin-top: 30px;
 }
 header .menu .imgbox:hover {
   cursor: pointer;
@@ -354,4 +355,65 @@ header .menu .imgbox:hover {
     font-weight: 600;
     padding: 30px 30px;
   }
+}
+
+#team {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+}
+#team h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#team h3 {
+  font-size: 20px;
+  color: #6c757d;
+  margin: 20px 0 40px;
+}
+#team .textbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#team .textbox .imgbox img {
+  width: 240px;
+  height: 240px;
+  border-radius: 120px;
+  border: 7px solid rgba(0, 0, 0, 0.1019607843);
+}
+#team .textbox h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+#team .textbox h3 {
+  font-size: 18px;
+  color: #6c757d;
+  margin: 10px 0 20px;
+}
+#team .textbox ul li {
+  display: flex;
+  flex-direction: row;
+}
+#team .textbox ul li .btn .icon {
+  background-color: #212529;
+  color: white;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+#team .textbox ul li .btn:hover .icon {
+  cursor: pointer;
+  opacity: 0.8;
+}
+#team .wordbox {
+  margin-left: 20%;
+  margin-right: 15%;
+  font-size: 20px;
+  color: #6c757d;
+  margin-top: 30px;
+  line-height: 1.5;
 }/*# sourceMappingURL=style.css.map */
