@@ -335,15 +335,15 @@ header .menu .imgbox:hover {
   }
   #about .txt-right {
     text-align: left;
-    margin-left: 40%;
+    margin-left: 70%;
     position: relative;
-    right: 7%;
+    right: 10%;
   }
   #about .txt-left {
     text-align: right;
-    margin-right: 20%;
+    margin-right: 50%;
     position: relative;
-    right: 40%;
+    right: 10%;
   }
   #about .circlebox {
     width: 170px;
